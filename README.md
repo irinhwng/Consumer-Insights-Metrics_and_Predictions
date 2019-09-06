@@ -170,4 +170,41 @@ The following tasks were implemented in chronological order:
         - There is room for improvement 
 ---
 
-(There are more notebooks to come!!!)
+# Conclusion Outline
+
+We executed the following: 
+1. Identified and visualized key metrics (`01_Metrics.ipynb`)
+2. Create overall RFM score for each customers by executing three customer segmentations (`02_CustomerSegmentation.ipynb`)
+    - Created visualizations based on the segmentations of the overall RFM score 
+3. Customer Lifetime Value Prediction (`03_CLV_Prediction.ipynb`)
+    - Identified cutoff date to predict CLV for the next 6 months 
+    - XGBoost Classifier
+    - Classification Reports 
+4. Churn Prediction (`04_ChurnPrediction.ipynb`)
+    - Data Visualization on categorical and numeric features 
+    - Clustered on numeric features
+    - Logistic Regression for interpretation 
+    - XGBoost Classifier 
+    - Classification Report 
+5. Next Purchase Day Prediction (`05_PredictNextPurchaseDay.ipynb`)
+    - Identified cutoff date 
+    - RFM scores (cluster and segmentation)
+    - Shift last three purchase dates (aggregate mean and SD for each customer in days)
+    - Kept customers who only made more than 3 purchases
+    - Modeling on seven classification models (predicted group representing  next purchase day range)
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
